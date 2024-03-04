@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: red;
+    animation:ami 2s ;
+}
+@keyframes ami{
+    0%{
+        top: -50px;
+    }
+    100%{
+        top: 0;
+    }
+    0%{
+        top: -50px
+    }
+}
+.menu_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: black;
+}
+.menu_bg ul li a.active{
+    background-color: yellow;
+}
+#banner{
+    height: 700px;
+    background-color: tomato;
+}
+#about{
+    height: 700px;
+    background-color: blue;
+}
+#blog{
+    height: 700px;
+    background-color: aqua;
+}
+.backtotop i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.btn{
+    height: 41px;
+    width: 70px;
+    margin-left: -4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: brown;
+    color: aliceblue;
+    
+}

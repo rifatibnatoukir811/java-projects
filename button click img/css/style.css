@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.main img{
+    width: 500px;
+}
+.main2{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+.main i{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    cursor: pointer;
+
+}
